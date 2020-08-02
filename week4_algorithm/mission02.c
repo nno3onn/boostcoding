@@ -26,11 +26,10 @@ int main(void){
         num[i] = get_int("(%d) ",i+1);
     }
 
-    // for(int i = 0; i < LENGTH; i++){
-    //     printf("%d",num[i]);
-    // }
+    int* num_sorted = bubble_sort(num, LENGTH);
 
-    int* new_num[LENGTH] = bubble_sort(num, LENGTH);
+    int mid = midnum(num_sorted, LENGTH);
+    printf("%d\n", mid);
 
 
     return 0;
@@ -48,9 +47,6 @@ int* bubble_sort(int a[], int length){
             }
         }
     }
-    // for(int i = 0; i < length; i++){
-    //     printf("%d",a[i]);
-    // }
     return a;
 }
 
@@ -65,7 +61,7 @@ int midnum(int a[], int length){
             mid = a[length/2];
         }
     }else{ //홀수개인 경우
-        mid = a[length/2 + 1];
+        mid = a[length/2];
     }
     return mid;
 }
