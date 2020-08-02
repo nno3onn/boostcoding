@@ -20,11 +20,17 @@ int main(void){
 
     printf("%i명 친구들의 집을 숫자로 나타내 주세요.\n", LENGTH);
 
-    int num[5];
+    int num[LENGTH];
 
     for(int i = 0; i < LENGTH; i++){
-        get_int("%d", &num[i]);
+        num[i] = get_int("(%d) ",i+1);
     }
+
+    // for(int i = 0; i < LENGTH; i++){
+    //     printf("%d",num[i]);
+    // }
+
+    int* new_num[LENGTH] = bubble_sort(num, LENGTH);
 
 
     return 0;
@@ -42,6 +48,9 @@ int* bubble_sort(int a[], int length){
             }
         }
     }
+    // for(int i = 0; i < length; i++){
+    //     printf("%d",a[i]);
+    // }
     return a;
 }
 
