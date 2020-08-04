@@ -10,7 +10,7 @@
 개수가 홀수인 경우, 중앙값 출력
 개수가 짝수인 경우, 중앙의 두 값중에서 평균에 더 가까운 값을 출력*/
 
-int* bubble_sort(int a[], int length);
+void bubble_sort(int a[], int length);
 int midnum(int a[], int length);
 float average(int a[], int length);
 float pow_num(float avg, int num);
@@ -26,16 +26,16 @@ int main(void){
         num[i] = get_int("(%d) ",i+1);
     }
 
-    int* num_sorted = bubble_sort(num, LENGTH);
+    bubble_sort(num, LENGTH);
 
-    int mid = midnum(num_sorted, LENGTH);
+    int mid = midnum(num, LENGTH);
     printf("%d\n", mid);
 
 
     return 0;
 }
 
-int* bubble_sort(int a[], int length){
+void bubble_sort(int a[], int length){
     int temp;
 
     for(int i = 0; i < length; i++){
@@ -47,7 +47,6 @@ int* bubble_sort(int a[], int length){
             }
         }
     }
-    return a;
 }
 
 int midnum(int a[], int length){
