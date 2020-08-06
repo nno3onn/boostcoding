@@ -11,7 +11,7 @@ void loop_ft(void);
 //사용자의 성적을 입력 받고 학점을 알려주는 함수. '999'를 입력받기 전까지 계속 반복함
 int* charToint(const char *array[], const int length);
 /*char형으로 된 score[]를 int형으로 바꾼 배열을 출력하는 함수.
-사실 처음부터 score[]를 int형 배열로 만들고 printTable없이 띄워줘도 되지만, 
+사실 처음부터 score[]를 int형 배열로 만들고 printTable없이 띄워줘도 되지만,
 샘플미션에서의 charArrayToIntArray함수를 보고 이렇게 하면 더 편할 것 같아서 그냥 응용해보았음*/
 char* calculate( int student_score, int size);
 //사용자에게 입력 받은 성적을 학점으로 계산해주는 함수
@@ -45,7 +45,7 @@ void printTable(const char* name, const char* table[], int size){
 
 void loop_ft(void){
     int student_score = get_int("성적을 입력하세요 (0 ~ 100) : ");
-    
+
     if(student_score == 999){
         printf("학점 프로그램을 종료합니다.\n");
         exit(1);
