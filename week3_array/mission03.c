@@ -15,7 +15,7 @@ int main(void){
      int num;
 
     while(1){
-        num = get_int("원하는 기능을 숫자로 작성하시오.\n(1) add\n(2) pop\n(3) display\n(4) quit\n 입력: ");
+        num = get_int("원하는 기능을 숫자로 작성하시오.\n(1) add\n(2) pop\n(3) display\n(4) quit\n입력: ");
 
         switch(num) {
             case 1: //add
