@@ -1,64 +1,3 @@
-make test
-./test
-make test
-./test
-make test
-./test
-make test
-./test
-make test
-./test
-make test
-./test
-make test
-./test
-make test
-./test
-make test
-./test
-./test
-./
-cd ..
-git add week4_algorithm/
-git commit -m "init"
-git pull origin master
-git add README.md
-git pull origin master
-git reset
-git add week4_algorithm/
-git commit -m "update"
-git pull
-git pull origin master
-git push -u origin +master
-add .
-add .
-git add .
-git commit -m "init"
-git push -u origin +master
-cd week4_algorithm/
-make mission_sample
-./mission_example
-./mission_sample 
-make test
-./test
-make test
-./test
-make test
-./test
-make test
-make mission01
-make mission01
-./test
-./mission01
-./test
-make mission01
-./mission01
-make mission01
-./mission01
-./mission01
-./mission01
-./mission01
-./mission01
 ./mission01
 ./mission01
 ./mission01
@@ -556,3 +495,21 @@ git commit -m "update"
 git reseet
 git add .
 git reset
+git add .
+git commit -m "update"
+git push origin +master
+cd week6_ds/
+make list 
+make list 
+./list
+make list 
+./list
+./list
+./list
+make list 
+./list
+./list
+make list 
+./list
+./list
+cd ..
