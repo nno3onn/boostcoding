@@ -1,21 +1,3 @@
-./mission01
-./mission01
-./mission01
-./mission01
-cd week4_algorithm/
-make mission02
-make mission02
-./mission02
-make mission02
-./mission02
-make mission02
-make mission02
-make mission02
-./mission02
-make mission02
-./mission02
-./mission02
-make mission02
 ./mission02
 make mission02
 make mission02
@@ -512,4 +494,15 @@ make list
 make list 
 ./list
 ./list
+cd ..
+git add .
+git commit -m "update"
+git push origin master
+cd week6_ds/
+make mission_sample 
+./mission_sample
+make mission_sample 
+./mission_sample
+make mission_sample 
+./mission_sample
 cd ..
