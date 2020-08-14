@@ -506,3 +506,92 @@ make mission_sample
 make mission_sample 
 ./mission_sample
 cd ..
+git add .
+git commit -m "update"
+git push origin master
+cd week6_ds/
+make mission01
+make mission01
+make mission01
+make mission01
+make mission01
+make mission01
+help50 make mission01
+help50 make mission01
+help50 make mission01
+make mission01
+make mission01
+./mission01
+make mission01
+make mission01
+./mission01
+./mission01
+make mission01
+make mission01
+make mission01
+./mission01
+make mission01
+./mission01
+make mission01
+./mission01
+make mission01
+./mission01
+make mission01
+./mission01
+make mission02
+make mission02
+make mission02
+make mission02
+make mission02
+make mission02
+make mission02
+make mission02
+make mission02
+./mission02
+help50 make mission02
+valgrind mission02
+valgrind make mission02
+./mission02
+make mission02
+./mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission04
+make mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+make mission04
+make mission04
+make mission02
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+cd ..
+git add.

@@ -33,7 +33,7 @@ void enqueue(Queue* queue, int item) {
     if (isFull(queue)) {
         return;
     }
-// 이 부분을 구현해 주세요!
+    // 이 부분을 구현해 주세요!
     printf("%d enqueued to queue\n", item);
 }
 
