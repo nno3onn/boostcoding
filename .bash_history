@@ -646,3 +646,48 @@ git add .
 git commit -m "update"
 git push origin master
 git add.
+git add .
+git commit -m "update"
+git push origin master
+make mission03
+cd week6_ds/
+make mission03
+make mission03
+make mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+make mission03
+./mission03
+cd ..
