@@ -13,6 +13,10 @@ typedef struct queue {
 
 Queue* createQueue(int capacity) {
     Queue* queue = (Queue *)malloc(sizeof(Queue));
+    if(!stack){
+        printf("failed to create node\n");
+        exit(0);
+    }
     queue->capacity = capacity;
     queue->front = 0;
     queue->size = 0;

@@ -10,18 +10,18 @@ typedef struct stackNode {
 
 StackNode* createStackNode(int data) {
     StackNode* node = (StackNode*)malloc(sizeof(StackNode));
+    // malloc사용 후 node가 만들어졌는지 확인
     if(!node){
         printf("failed to create node\n");
         exit(0);
     }
-
     node->data = data;
     node->next = NULL;
     return node;
 }
 
 int isEmpty(StackNode* root) {
-    return !root;
+    return !root;   //true, false (0,1) 값을 반환
 }
 
 void push(StackNode** root, int data) {
@@ -67,10 +67,9 @@ int main() {
     printf("%d pop from stack\n", pop(&root));
     printf("%d pop from stack\n", pop(&root));
     printf("%d pop from stack\n", pop(&root));
-    printf("%d pop from stack\n", pop(&root));
-    printf("%d pop from stack\n", pop(&root));
     return 0;
 
+    //할당받은 메모리 해제
     while(root->next == NULL){
         StackNode* tmp = root;
         root = root->next;

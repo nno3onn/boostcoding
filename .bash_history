@@ -1,103 +1,3 @@
-./mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-help50 make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-./mission02
-make mission02
-./mission02
-make test
-make test
-make test
-make test
-make test
-make test
-make mission01
-make mission01
-./mission01
-make mission02
-./mission02
-make test2
-make test2
-make test2
-make test2
-make test2
-./test2
-make mission02
-make mission02
-make test
-./test
-make test2
-./test2
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make test2
-make test2
-make test2
-make test2
-cd ..
-git remote -v
-git add week4_algorithm/
-git commit -m "init"
-git push -u origin +master
-make mission02
-cd week4_algorithm/
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-make mission02
-./mission02
-make mission02
-./mission02
-make mission02
-./mission02
-2
-./mission02
-cd ..
-git add week4_algorithm/
-git push origin +master
-git add week4_algorithm/
-git commit -m "update"
-git push origin +master
-git add week4_algorithm/
-git commit -m "update"
-git push origin +master
-git add week4_algorithm/
-git commit -m "update"
-git push origin +master
-cd week4_algorithm/
-make mission03
-make mission03
-make mission03
-make mission03
-make mission03
 make mission03
 ./mission03
 make mission03
@@ -595,3 +495,150 @@ make mission04
 ./mission04
 cd ..
 git add.
+git add .
+git commit -m "update"
+git push origin master
+cd week6_ds/
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+make mission04
+make mission04
+make mission02
+make mission04
+make mission02
+make mission04
+make mission04
+./mission04
+./mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+./mission04
+./mission04
+./mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+make mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission04
+./mission04
+make mission02
+make mission01
+make mission01
+help50 make mission01
+make mission01
+make mission01
+make mission01
+make mission02
+make mission01
+make mission01
+make mission01
+./mission01
+make mission01
+./mission01
+make mission01
+./mission01
+make mission01
+make mission01
+make mission01
+./mission01
+make mission01
+./mission01
+make mission01
+./mission01
+make mission02
+make mission02
+make mission02
+./mission02
+make mission02
+make mission01
+make mission01_explain 
+./mission01_explain
+make mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make test
+make test
+make test
+./test
+make mission02
+./mission02
+cd ..
+make add .
