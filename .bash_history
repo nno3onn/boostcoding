@@ -642,3 +642,7 @@ make mission02
 ./mission02
 cd ..
 make add .
+git add .
+git commit -m "update"
+git push origin master
+git add.
