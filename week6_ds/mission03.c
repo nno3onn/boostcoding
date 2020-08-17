@@ -15,7 +15,7 @@ Queue* createQueue(int capacity) {
     Queue* queue = (Queue *)malloc(sizeof(Queue));
     if(!queue){
         printf("failed to create queue\n");
-        exit(0);
+        exit(1);
     }
     queue->capacity = capacity;
     queue->front = 0;
@@ -23,7 +23,7 @@ Queue* createQueue(int capacity) {
     queue->rear = capacity-1;
     queue->array = (int *)malloc(sizeof(int)*queue->capacity);
     if(!(queue->array))
-        exit(0);
+        exit(1);
     return queue;
 }
 

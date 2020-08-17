@@ -14,14 +14,14 @@ Stack* createStack(int capacity) {
     Stack* stack = (Stack*)malloc(sizeof(Stack));
     if(!stack){
         printf("failed to create node\n");
-        exit(0);    //생성되지 않았다면 프로그램 종료
+        exit(1);    //생성되지 않았다면 프로그램 종료
     }
     stack->capacity = capacity;
     stack->top = -1;     // 배열을 [0]부터 시작하기 위해 -1(empty)로 지정
     stack->array = (int*)malloc(stack->capacity*sizeof(int));
     // malloc 사용 후 배열이 잘 생성되었는지 확인
     if(!(stack->array)){
-        exit(0);
+        exit(1);
     }
     return stack;
 }

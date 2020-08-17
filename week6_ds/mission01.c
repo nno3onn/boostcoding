@@ -13,13 +13,13 @@ Stack* createStack(int capacity) {
     Stack* stack = (Stack*)malloc(sizeof(Stack));
     if(!stack){
         printf("failed to create node\n");
-        exit(0);
+        exit(1);
     }
     stack->capacity = capacity;
     stack->top = -1;
     stack->array = (int*)malloc(stack->capacity*sizeof(int));
     if(!(stack->array)){
-        exit(0);
+        exit(1);
     }
     return stack;
 }

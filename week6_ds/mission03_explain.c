@@ -16,7 +16,7 @@ Queue* createQueue(int capacity) {
     // 메모리 할당 잘 되었는지 확인
     if(!queue){
         printf("failed to create queue\n");
-        exit(0);
+        exit(1);
     }
     queue->capacity = capacity;
     queue->front = 0;
@@ -26,7 +26,7 @@ Queue* createQueue(int capacity) {
     queue->array = (int *)malloc(sizeof(int)*queue->capacity);
     // 메모리 할당 잘 되었는지 확인
     if(!(queue->array))
-        exit(0);
+        exit(1);
     return queue;
 }
 

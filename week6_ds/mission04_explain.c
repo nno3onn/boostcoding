@@ -12,7 +12,7 @@ Node* createNode(int data) {
     Node* node = (Node*)malloc(sizeof(Node));
     if(!node){  //메모리 문제로 node가 만들어지지 않았는지 확인
         printf("failed to create node\n");
-        exit(0);    //node가 만들어지지 않았다면 종료
+        exit(1);    //node가 만들어지지 않았다면 종료
     }
     node->data = data;
     node->next = NULL;

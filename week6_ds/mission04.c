@@ -12,7 +12,7 @@ Node* createNode(int data) {
     Node* node = (Node*)malloc(sizeof(Node));
     if(!node){
         printf("failed to create node\n");
-        exit(0);
+        exit(1);
     }
     node->data = data;
     node->next = NULL;

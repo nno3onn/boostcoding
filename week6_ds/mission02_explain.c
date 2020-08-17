@@ -13,7 +13,7 @@ StackNode* createStackNode(int data) {
     // malloc사용 후 node가 만들어졌는지 확인
     if(!node){
         printf("failed to create node\n");
-        exit(0);
+        exit(1);
     }
     node->data = data;
     node->next = NULL;

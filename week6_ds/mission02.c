@@ -1,4 +1,4 @@
-// 연결리스트로 Stack 만들기
+// 연결 리스트로 Stack 만들기
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,9 +12,8 @@ StackNode* createStackNode(int data) {
     StackNode* node = (StackNode*)malloc(sizeof(StackNode));
     if(!node){
         printf("failed to create node\n");
-        exit(0);
+        exit(1);
     }
-
     node->data = data;
     node->next = NULL;
     return node;

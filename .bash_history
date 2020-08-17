@@ -1,29 +1,3 @@
-make copy
-./compare 
-make copy
-make compare
-make copy
-./copy
-emma
-./copy
-make copy
-./copy
-make copy
-./copy
-valgrind ./copy
-help50 ./copy
-help50 valgrind ./copy
-help50 valgrind ./copy
-make copy
-help50 valgrind ./copy
-make memory
-make memory
-valgrind ./memory
-make memory
-valgrind ./memory
-make memory
-valgrind ./memory
-cd ..
 cd week4_algorithm/
 make mission_chan 
 ./mission_chan
@@ -519,4 +493,71 @@ make mission01_anagram
 ./mission01_anagram 
 make mission01_anagram 
 ./mission01_anagram 
+cd ..
+git add .
+git commit -m "update
+git commit -m "update"
+git push origin master
+cd week6_ds/
+make mission02
+make mission02
+./mission03_2
+make mission03_2
+make mission03_2
+./mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2
+./mission03_2
+make mission03_2\
+./mission03_2
+make mission03_2\
+make mission03_2
+./mission03_2
 cd ..
