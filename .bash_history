@@ -1,69 +1,3 @@
-cd week4_algorithm/
-make mission_chan 
-./mission_chan
-make mission_chan 
-make mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-./mission_chan
-./mission_chan
-./mission_chan
-make mission_chan
-make mission_chan
-make mission_chan
-./missiono_c
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-./mission_chan 
-make mission_chan
-make mission_chan
-make mission_chan
-make mission_chan
-make mission_chan
-make mission_chan
-make mission_chan
-./mission)chan
-./mission_chan
-./mission)chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-make mission_chan
-make mission_chan
 make mission_chan
 make mission_chan
 make mission_chan
@@ -561,3 +495,32 @@ make mission03_2\
 make mission03_2
 ./mission03_2
 cd ..
+git add .
+git commit -m "update"
+git push origin master
+make mem_p 
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+help50 make mem_p
+./mem_p
+./mem_p
+./mem_p
+help50 make mem_p
+./mem_p
