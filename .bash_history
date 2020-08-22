@@ -1,94 +1,3 @@
-make mission_chan
-make mission_chan
-make mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-make mission_chan
-./mission_chan
-cd ..
-git push week4_algorithm/
-git add week4_algorithm/
-git add week5_memory/
-git commit -m "update"
-git push origin +master
-make compare2 
-./compare2 
-make compare2 
-./compare2 
-cd week5_memory/
-valgrind make copy
-make copy
-valgrind ./copy
-cd ..
-cd week4_algorithm/
-make mission04
-make mission04
-make mission03_2
-cd ..
-git add week4_algorithm/
-git commit -m "update"
-git push origin +master
-cd week5
-cd week5_memory/
-help50 valgrind copy
-make copy
-help50 valgrind ./copy
-make copy
-help50 valgrind ./copy
-help50 valgrind ./copy
-make noswap 
-./noswap 
-make swap
-make swap
-./swap
-make scanf
-make scanf
-make scanf
-make scanf
-./scanf
-make scanf
-make scanf
-make scanf
-./scanf
-./scanf
-make phonebook 
-make phonebook 
-./phonebook
-ls
-./phonebook
-make jpeg
-cd ..
-git add week5_memory/
-git commit -m "update"
-git push origin +master
-git add week5_memory/
-git commit -m "update"
-git reset
-git add week5_memory/
-git commit -m "update"
-git reseet
-git add .
-git reset
 git add .
 git commit -m "update"
 git push origin +master
@@ -524,3 +433,69 @@ help50 make mem_p
 ./mem_p
 help50 make mem_p
 ./mem_p
+git add .
+git commit -m "update"
+git push origin master
+nno3onn@naver.com
+git push origin master
+make pnx
+make pnx
+./pnx
+make pnx
+make pnx
+make pnx
+make pnx
+make pnx
+make pnx
+./pnx
+./pnx
+make pnx
+make pnx
+make pnx
+make pnx
+make pnx
+make pnx
+make pnx
+make pnx
+./pnx
+cd week7_mission/
+make mission02
+make mission02
+make mission02
+make mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+./mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission02
+./mission02
+make mission04
+make mission03
+make mission03
+make mission03
+make mission03
+make mission03
+make mission03
+make mission03
+./mission03
+./mission03
+./mission03
+make mission03
+make mission03
+make mission03
+./mission03
+make mission04
+./mission04
+git remote -v
