@@ -19,7 +19,7 @@ Stack* createStack(int capacity) {
     stack->top = -1;
     stack->array = (int*)malloc(stack->capacity*sizeof(int));
     if(!(stack->array)){
-        exit(1);
+        exit();
     }
     return stack;
 }

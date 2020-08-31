@@ -10105,6 +10105,7 @@ module.exports = function setup(fsOptions) {
             err.code = "EACCES";
             return callback(err);
         }
+        if (waitForEnv) return waitForEnv.push(extend.bind(null, name, options, callback));
 
         var meta = {};
         // Pull from cache if it's already loaded.
